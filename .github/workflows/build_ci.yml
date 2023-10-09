@@ -16,7 +16,7 @@ jobs:
       
       - name: Build Plugin
         id: build-plugin
-        uses: thekaushikls/make-ghpy@v1.0.1
+        uses: thekaushikls/make-ghpy@v1
         with:
           source: src
           package-name: my_plugin # Change this to the name of your plugin
